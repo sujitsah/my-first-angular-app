@@ -11,7 +11,6 @@ serverName= '';
 serverCreated= false;
 servers = ['test' , 'test2'];
 serverStatus = 'no server was created';
-
   constructor() {
     setTimeout(() => {
       this.allowNewServer = true;
